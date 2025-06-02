@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_sound_names">
+        <item>Standard Ton</item>
+        <item>Sanfter Wecker</item>
+        <item>Digitaler Alarm</item>
+        <item>Melodie</item>
+    </string-array>
+
+    <string-array name="alarm_sound_values">
+        <item>default</item>
+        <item>gentle</item>
+        <item>digital</item>
+        <item>melody</item>
+    </string-array>
+
+    <string-array name="snooze_duration_entries">
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+
+    <string-array name="snooze_duration_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+</resources> 

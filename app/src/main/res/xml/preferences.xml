@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="Alarm Settings"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:defaultValue="5"
+            android:entries="@array/snooze_duration_entries"
+            android:entryValues="@array/snooze_duration_values"
+            android:key="snooze_time"
+            android:title="Snooze Duration"
+            android:summary="Set how long to snooze the alarm"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            android:key="alarm_sound"
+            android:title="Alarm Ton"
+            android:summary="Wählen Sie den Alarmton"
+            android:defaultValue="default"
+            android:entries="@array/alarm_sound_names"
+            android:entryValues="@array/alarm_sound_values"
+            app:iconSpaceReserved="false" />
+
+        <SwitchPreferenceCompat
+            android:key="vibrate"
+            android:title="Vibration"
+            android:summary="Vibration beim Alarm aktivieren"
+            android:defaultValue="true"
+            app:iconSpaceReserved="false" />
+
+        <SeekBarPreference
+            android:key="alarm_volume"
+            android:title="Lautstärke"
+            android:summary="Lautstärke des Alarms"
+            android:defaultValue="80"
+            android:max="100"
+            app:showSeekBarValue="true"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
